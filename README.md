@@ -16,7 +16,7 @@ Run **Visualize_geometry.m**  to visualize the geometry of a 4D tree model.
 
 **Step 2: Spatio-temporal registration**
 
-![Before spatial registration](sample1.mp4) ![After spatial registration](sample1_after_reg.mp4)
+![Before spatial registration](sample1.gif) ![After spatial registration](sample1_after_reg.gif)
 
 We have performed the spatial registration within each sequence first. Then, set up spatial correspondence across 4D sequences. Finally, we align 4D sequences onto other sequences temporally,
 
@@ -30,17 +30,17 @@ However, the registered 4D trees of our three different sets are saved in ‘Reg
 
 Run **Geodesic_computation_before_reg.m** to visualize the geodesic path between two 4D tree models before performing spatiotemporal registration.
 
-![Geodesic before spatiotemporal registration](geod_5_10_before_reg-ezgif.com-crop-video.mp4)
+![Geodesic before spatiotemporal registration](geod_5_10_before_reg.gif)
 
 Run **Geodesic_computation_after_reg.m** to visualize the geodesic path between two 4D tree models after performing spatiotemporal registration.
 
-![Geodesic after spatiotemporal registration](geod_5_10_after_reg-ezgif.com-crop-video.mp4)
+![Geodesic after spatiotemporal registration](geod_5_10_after_reg.gif)
 
 **Step 4: Summary statistics and random sample synthesis**
 
 Run **Mean_modes_set1.m** to visualize the mean 4D shape and the variation of set1 in the first principal direction of variation. If you explore in other principal directions, the instruction is given in the script.
 
-![](mean_set1.mp4)
+![](mean_set1.gif)
 
 Run **Mean_modes_set2and3.m** to visualize the mean 4D shape and the variation of set2, set3 in the first principal direction of variation.
 
@@ -48,5 +48,5 @@ Run **Synthesize_from_set1** to get random samples by learning from set1
 
 Run **Synthesize_from_set2and3** to get random samples by learning from set2 and set3
 
-![](sample1_from_set3.mp4)
+![](sample1_from_set3.gif)
 
