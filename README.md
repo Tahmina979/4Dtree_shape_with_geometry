@@ -2,9 +2,9 @@ This is an example code for the paper **A Riemannian Framework for the Elastic  
 
 Detailed results can be found on our [project website]()
 
-Step-by-step-guide:
+**Step-by-step-guide:**
 
-First, compile DynamicProgrammingQ.c using mex command in matlab: mex DynamicProgrammingQ.c
+First, compile DynamicProgrammingQ.c using mex command in matlab: **mex DynamicProgrammingQ.c**
 
 **Step 1: pre-processing**
 
@@ -16,7 +16,11 @@ Run **Visualize_geometry.m**  to visualize the geometry of a 4D tree model.
 
 **Step 2: Spatio-temporal registration**
 
-![Before spatial registration](sample1.gif) ![After spatial registration](sample1_after_reg.gif)
+**Before spatial registration**
+![Before spatial registration](sample1.gif) 
+
+**After spatial registration**
+![After spatial registration](sample1_after_reg.gif)
 
 We have performed the spatial registration within each sequence first. Then, set up spatial correspondence across 4D sequences. Finally, we align 4D sequences onto other sequences temporally,
 
@@ -40,6 +44,7 @@ Run **Geodesic_computation_after_reg.m** to visualize the geodesic path between 
 
 Run **Mean_modes_set1.m** to visualize the mean 4D shape and the variation of set1 in the first principal direction of variation. If you explore in other principal directions, the instruction is given in the script.
 
+**Mean shape of set1**
 ![](mean_set1.gif)
 
 Run **Mean_modes_set2and3.m** to visualize the mean 4D shape and the variation of set2, set3 in the first principal direction of variation.
@@ -48,5 +53,6 @@ Run **Synthesize_from_set1** to get random samples by learning from set1
 
 Run **Synthesize_from_set2and3** to get random samples by learning from set2 and set3
 
-![](sample1_from_set3.gif)
+**Synthesized 4D tree from set2**
+![](sample1_from_set2.gif)
 
