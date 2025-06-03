@@ -61,7 +61,7 @@ If this repository is usefull for your research and you use it, plesae site.
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{khanam2024riemannian,
+    <pre><code>@article{,
   author    = {Tahmina Khanam, Hamid Laga, Mohammed Bennamoun, Guanjin Wang, Ferdous Sohel, Farid Boussaid, Anuj Srivastava},
   title     = {A Riemannian Framework for the Elastic  Analysis  of the Spatiotemporal Variability in the Shape and Structure of Tree-like 4D Objects},
   journal   = {},
