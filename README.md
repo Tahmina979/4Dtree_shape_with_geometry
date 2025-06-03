@@ -56,7 +56,7 @@ Run **Synthesize_from_set2and3** to get random samples by learning from set2 and
 **Synthesized 4D tree from set2**
 ![](sample1_from_set2.gif)
 
-If this repository is usefull for your research and you use it, plesae site.
+If this repository is useful for your research and you use it, please cite.
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
