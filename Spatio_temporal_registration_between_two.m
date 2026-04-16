@@ -164,7 +164,7 @@ X1=tree_pca(1:num_within_seq5,:)';
 X2=tree_pca(num_within_seq5+1:num_within_seq5+num_within_seq6,:)';
 
 
-[dist,X2n,X1,X2,gamI, distbefore]=mygeod(X1,X2); %Perfrom the temporal alignment, X2n is the temporally aligned 4D sequence/curve of X2(second sample) onto X1(first sample) (in PCA space)
+[dist,X2n,q2n,X1,X2,q1,q2,gamI, distbefore]=mygeod(X1,X2); %Perfrom the temporal alignment, X2n is the temporally aligned 4D sequence/curve of X2(second sample) onto X1(first sample) (in PCA space)
 
 %inverse PCA mapping
 for i=1:size(X2n,2)
