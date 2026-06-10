@@ -62,7 +62,7 @@ If this repository is useful for your research and you use it, please cite.
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{,
-  author    = {Tahmina Khanam, Hamid Laga, Mohammed Bennamoun, Guanjin Wang, Ferdous Sohel, Farid Boussaid, Anuj Srivastava},
+  author    = {Tahmina Khanam, Hamid Laga, Mohammed Bennamoun, Guanjin Wang, Ferdous Sohel, Farid Boussaid, Guan Wang, and Anuj Srivastava},
   title     = {A Riemannian Framework for the Elastic  Analysis  of the Spatiotemporal Variability in the Shape and Structure of Tree-like 4D Objects},
   journal   = {},
   year      = {},
